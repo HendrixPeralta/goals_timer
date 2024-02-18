@@ -7,7 +7,7 @@ def stopwatch():
 
     start_time = time.time()
     print("Time running //")
-
+    print("Press enter to finish the stopwatch")
     value = input()
     total_time = round((time.time() - start_time), 2)
 
@@ -16,6 +16,7 @@ def stopwatch():
     # finish_time = time.time()
     print("exercise complete")
 
+    return total_time
 
 class button:
     def __init__(self, name):
